@@ -2,7 +2,7 @@
   "name": "bacon-txt-charts",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://arantespp.github.io/bacon-txt-charts/",
+  "homepage": "https://graficoddc.github.io/bacon-txt-charts/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
