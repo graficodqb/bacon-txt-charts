@@ -3,11 +3,7 @@ import * as React from 'react';
 type Item = {
   date: string;
   segundoDado: number;
-  tensaoPainelSolar: number;
-  correntePainelSolar: number;
-  tensaoBateria: number;
-  correnteBateria: number;
-  tensaoAlvo: number;
+  resistenciaDescarrilamento: number;
   informaMulti: number;
 };
 
@@ -41,11 +37,7 @@ const dataMap = {
   hora: 8,
   minuto: 9,
   segundo: 10,
-  tensaoPainelSolar: 12,
-  correntePainelSolar: 13,
-  tensaoBateria: 14,
-  correnteBateria: 15,
-  tensaoAlvo: 18,
+  resistenciaDescarrilamento: 23,
   informaMulti: 46,
 };
 

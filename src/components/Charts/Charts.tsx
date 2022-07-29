@@ -93,28 +93,8 @@ export const Charts = () => {
           <Legend />
           <Line
             {...lineCommonProps}
-            dataKey="tensaoPainelSolar"
+            dataKey="resistenciaDescarrilamento"
             stroke="#0000FF"
-          />
-          <Line
-            {...lineCommonProps}
-            dataKey="correntePainelSolar"
-            stroke="#FF0000"
-          />
-          <Line
-            {...lineCommonProps}
-            dataKey="tensaoBateria"
-            stroke="#FFCC00"
-          />
-          <Line
-            {...lineCommonProps}
-            dataKey="correnteBateria"
-            stroke="#00FF00"
-          />
-          <Line
-            {...lineCommonProps}
-            dataKey="tensaoAlvo"
-            stroke="#800080"
           />
         </LineChart>
       </ResponsiveContainer>
