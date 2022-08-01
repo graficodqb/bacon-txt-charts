@@ -84,7 +84,7 @@ export const DataProvider = ({ children }: { children: React.ReactNode }) => {
       })
       .filter((item): item is Item => item !== undefined)
       .filter((item) => item.segundoDado === 4)
-      .filter((item) => item.informaMulti === 1)
+      //.filter((item) => item.informaMulti === 1)
       /**
        * Sort by date.
        */
