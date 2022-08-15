@@ -3,7 +3,7 @@ import * as React from 'react';
 type Item = {
   date: string;
   segundoDado: number;
-  resistenciaDescarrilamento: number;
+  resistenciaBarreira: number;
   informaMulti: number;
 };
 
@@ -37,7 +37,7 @@ const dataMap = {
   hora: 8,
   minuto: 9,
   segundo: 10,
-  resistenciaDescarrilamento: 23,
+  resistenciaBarreira: 24,
   informaMulti: 46,
 };
 

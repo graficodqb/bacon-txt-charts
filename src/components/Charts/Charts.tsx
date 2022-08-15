@@ -93,8 +93,8 @@ export const Charts = () => {
           <Legend />
           <Line
             {...lineCommonProps}
-            dataKey="resistenciaDescarrilamento"
-            stroke="#0000FF"
+            dataKey="resistenciaBarreira"
+            stroke="#FF0000"
           />
         </LineChart>
       </ResponsiveContainer>
